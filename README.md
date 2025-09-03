@@ -1,1 +1,2 @@
-# QA-automation-assignment
+pip install selenium
+python ecommerce_test.py
