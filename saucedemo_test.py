@@ -7,10 +7,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time, os
 
-EMAIL = os.getenv("SAUCE_USER", "standard_user")   # default username for saucedemo
+EMAIL = os.getenv("SAUCE_USER", "standard_user")   
 PASSWORD = os.getenv("SAUCE_PASS", "secret_sauce")
 
-driver = webdriver.Chrome()  # make sure chromedriver is in PATH
+driver = webdriver.Chrome()  
 wait = WebDriverWait(driver, 10)
 try:
     driver.get("https://www.saucedemo.com/")
