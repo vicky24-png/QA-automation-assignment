@@ -1,0 +1,2 @@
+selenium
+python-dotenv   # if you use .env
